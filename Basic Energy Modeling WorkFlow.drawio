@@ -1,0 +1,373 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.1.2 Chrome/138.0.7204.243 Electron/37.4.0 Safari/537.36" version="28.1.2">
+  <diagram name="Page-1" id="n8r05se4jZn1myxtpy71">
+    <mxGraphModel dx="1214" dy="1113" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <UserObject label="" tooltip="In energy modeling software, a schedule is basically a time-based profile that tells the software when and how much a building component or system is active or consuming energy.&#xa;&#xa;Backend should have template or library of schedule for lighting, Mechanical Equipment, electrical equipment, occupancy etc. based on the space/building type. In practice engineers actually get the schedule information from the client. User should have option to create the customized schedule" id="vdHyaJ4h-RcjHrm4b7ZG-102">
+          <mxCell style="html=1;whiteSpace=wrap;dashed=1;dashPattern=8 8;fillOpacity=100;strokeColor=#996185;strokeWidth=4;fillColor=#e6d0de;gradientColor=#d5739d;" vertex="1" parent="1">
+            <mxGeometry x="2670" y="150" width="760" height="160" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="vdHyaJ4h-RcjHrm4b7ZG-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="vdHyaJ4h-RcjHrm4b7ZG-83" target="vdHyaJ4h-RcjHrm4b7ZG-85">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="" tooltip="Building envelope generally cosists of exterior walls, fenestration (windows, doors, skylights), roofs. The backend should have ASHRAE 90.1 envelopes data library. &#xa;&#xa;User should have option to build custom envelopes from the library data or create custom material data from scratch." id="vdHyaJ4h-RcjHrm4b7ZG-83">
+          <mxCell style="html=1;whiteSpace=wrap;dashed=1;dashPattern=8 8;fillOpacity=100;strokeColor=#6c8ebf;strokeWidth=4;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fillColor=#dae8fc;gradientColor=#7ea6e0;" vertex="1" parent="1">
+            <mxGeometry x="4760" y="140" width="660" height="180" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="vdHyaJ4h-RcjHrm4b7ZG-52" value="" style="html=1;whiteSpace=wrap;dashed=1;dashPattern=8 8;fillOpacity=100;strokeWidth=4;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="1310" y="286.25" width="1100" height="740" as="geometry" />
+        </mxCell>
+        <mxCell id="vdHyaJ4h-RcjHrm4b7ZG-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vdHyaJ4h-RcjHrm4b7ZG-61" target="vdHyaJ4h-RcjHrm4b7ZG-81">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="" tooltip="Building can have single to multiple systems. Zones will be assigned to their corresponding systems. For example, in a building few zones are conditioned by indoor VAV Air Handler and rest of the zones have split heat pumps. So there are two types of systems- VAV AHU and Split Unit" id="vdHyaJ4h-RcjHrm4b7ZG-61">
+          <mxCell style="html=1;whiteSpace=wrap;dashed=1;dashPattern=8 8;fillOpacity=100;strokeColor=#666666;strokeWidth=4;fillColor=#f5f5f5;gradientColor=#b3b3b3;" vertex="1" parent="1">
+            <mxGeometry x="3790" y="412" width="660" height="250" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="qKtM6gBLV4-Jbve_D4DI-5" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" parent="1" source="qKtM6gBLV4-Jbve_D4DI-3" target="qKtM6gBLV4-Jbve_D4DI-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qKtM6gBLV4-Jbve_D4DI-3" value="Create Project File" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="870" y="320" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HHPCQ12rIjROW6OXy4xZ-7" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" parent="1" source="qKtM6gBLV4-Jbve_D4DI-4" target="HHPCQ12rIjROW6OXy4xZ-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Weather" tooltip="User can search and select location and weather and outdoor design data (temperature, humidity) will populate. User will also have option to override any weather data as user defined). " id="qKtM6gBLV4-Jbve_D4DI-4">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+            <mxGeometry x="1090" y="335" width="120" height="50" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="HHPCQ12rIjROW6OXy4xZ-2" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" parent="1" source="HHPCQ12rIjROW6OXy4xZ-1" target="qKtM6gBLV4-Jbve_D4DI-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HHPCQ12rIjROW6OXy4xZ-1" value="Weather Library from Backend:&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1090" y="190" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HHPCQ12rIjROW6OXy4xZ-6" value="Building Geometry/ Floor Plan" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="1340" y="335" width="120" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="HHPCQ12rIjROW6OXy4xZ-14" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" parent="1" source="HHPCQ12rIjROW6OXy4xZ-8" target="HHPCQ12rIjROW6OXy4xZ-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HHPCQ12rIjROW6OXy4xZ-19" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="HHPCQ12rIjROW6OXy4xZ-8" target="HHPCQ12rIjROW6OXy4xZ-18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HHPCQ12rIjROW6OXy4xZ-8" value="Import PDF/Image" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="1360" y="490" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HHPCQ12rIjROW6OXy4xZ-11" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" parent="1" target="HHPCQ12rIjROW6OXy4xZ-8" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1399.23" y="380" as="sourcePoint" />
+            <mxPoint x="1400" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="etLGxjpEFHW9x_pnTlPD-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="HHPCQ12rIjROW6OXy4xZ-13" target="etLGxjpEFHW9x_pnTlPD-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2090" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HHPCQ12rIjROW6OXy4xZ-13" value="Floor Plan Tracer" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="1580" y="507.5" width="120" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="HHPCQ12rIjROW6OXy4xZ-15" value="Yes" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1450" y="522.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HHPCQ12rIjROW6OXy4xZ-17" value="No" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1380" y="640" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="HHPCQ12rIjROW6OXy4xZ-21" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="HHPCQ12rIjROW6OXy4xZ-18" target="HHPCQ12rIjROW6OXy4xZ-20" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HHPCQ12rIjROW6OXy4xZ-28" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;edgeStyle=orthogonalEdgeStyle;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="HHPCQ12rIjROW6OXy4xZ-18" target="HHPCQ12rIjROW6OXy4xZ-23" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1400" y="930" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1400" y="915" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HHPCQ12rIjROW6OXy4xZ-18" value="gbXML" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="1360" y="720" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VKMl1Ml1--9SKAOx6aiF-4" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" parent="1" source="HHPCQ12rIjROW6OXy4xZ-20" target="VKMl1Ml1--9SKAOx6aiF-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HHPCQ12rIjROW6OXy4xZ-20" value="Import gbXML" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="1580" y="737.5" width="120" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="HHPCQ12rIjROW6OXy4xZ-22" value="Yes" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1470" y="737.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="etLGxjpEFHW9x_pnTlPD-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" parent="1" target="etLGxjpEFHW9x_pnTlPD-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2070" y="810" as="targetPoint" />
+            <mxPoint x="1670" y="915" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="2030" y="916" />
+              <mxPoint x="2030" y="799" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HHPCQ12rIjROW6OXy4xZ-23" value="Floor Plan Wizard" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="1580" y="890" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="VKMl1Ml1--9SKAOx6aiF-2" value="No" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1380" y="840" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="etLGxjpEFHW9x_pnTlPD-9" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;entryX=0;entryY=0.273;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="VKMl1Ml1--9SKAOx6aiF-3" target="etLGxjpEFHW9x_pnTlPD-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2110" y="761.25" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VKMl1Ml1--9SKAOx6aiF-3" value="gbXML Visualization&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="1880" y="740" width="120" height="42.5" as="geometry" />
+        </mxCell>
+        <mxCell id="vdHyaJ4h-RcjHrm4b7ZG-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.01;entryY=0.707;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="etLGxjpEFHW9x_pnTlPD-1" target="vdHyaJ4h-RcjHrm4b7ZG-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2580" y="600" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2620" y="779" />
+              <mxPoint x="2620" y="594" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="Spaces" tooltip="This is actually an integral part of the floor plan tab. Once the building geometry has been finalized, the user will be able to provide select provide identification of individual spaces. Also user will be able to provide identification of different types of windows, doors, roof, exterior and interior wall types. These are all geometric properties of envelopes, not the thermal or material properties." id="etLGxjpEFHW9x_pnTlPD-1">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+            <mxGeometry x="2150" y="737.5" width="170" height="82.5" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="etLGxjpEFHW9x_pnTlPD-11" value="Wall" style="rounded=1;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="4810" y="252.5" width="120" height="43.5" as="geometry" />
+        </mxCell>
+        <mxCell id="etLGxjpEFHW9x_pnTlPD-12" value="Opening" style="rounded=1;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="4980" y="248.75" width="120" height="47.25" as="geometry" />
+        </mxCell>
+        <mxCell id="etLGxjpEFHW9x_pnTlPD-13" value="Roof" style="rounded=1;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="5180" y="250.63" width="120" height="43.5" as="geometry" />
+        </mxCell>
+        <mxCell id="hHAk3CXOW3eb2QgVRmWD-2" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Envelopes&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1">
+          <mxGeometry x="4800" y="170" width="240" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="vdHyaJ4h-RcjHrm4b7ZG-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vdHyaJ4h-RcjHrm4b7ZG-5" target="vdHyaJ4h-RcjHrm4b7ZG-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2750" y="550" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vdHyaJ4h-RcjHrm4b7ZG-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="vdHyaJ4h-RcjHrm4b7ZG-5" target="vdHyaJ4h-RcjHrm4b7ZG-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2820" y="385" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vdHyaJ4h-RcjHrm4b7ZG-5" value="Lighting Schedule" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="2740" y="246.25" width="120" height="43.5" as="geometry" />
+        </mxCell>
+        <mxCell id="vdHyaJ4h-RcjHrm4b7ZG-18" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.394;entryY=0.011;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="vdHyaJ4h-RcjHrm4b7ZG-6" target="vdHyaJ4h-RcjHrm4b7ZG-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vdHyaJ4h-RcjHrm4b7ZG-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vdHyaJ4h-RcjHrm4b7ZG-6" target="vdHyaJ4h-RcjHrm4b7ZG-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3090" y="440" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="3110" y="264" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vdHyaJ4h-RcjHrm4b7ZG-6" value="Occupancy Schedule" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="2930" y="242.5" width="120" height="43.75" as="geometry" />
+        </mxCell>
+        <mxCell id="vdHyaJ4h-RcjHrm4b7ZG-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="vdHyaJ4h-RcjHrm4b7ZG-7" target="vdHyaJ4h-RcjHrm4b7ZG-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3180" y="220" />
+              <mxPoint x="2885" y="220" />
+              <mxPoint x="2885" y="355" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vdHyaJ4h-RcjHrm4b7ZG-104" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vdHyaJ4h-RcjHrm4b7ZG-7" target="vdHyaJ4h-RcjHrm4b7ZG-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vdHyaJ4h-RcjHrm4b7ZG-7" value="Electrical Equipment schedule" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="3120" y="242.5" width="120" height="43.5" as="geometry" />
+        </mxCell>
+        <mxCell id="vdHyaJ4h-RcjHrm4b7ZG-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;" edge="1" parent="1" source="vdHyaJ4h-RcjHrm4b7ZG-10" target="vdHyaJ4h-RcjHrm4b7ZG-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3200" y="283" />
+              <mxPoint x="3200" y="355" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vdHyaJ4h-RcjHrm4b7ZG-10" value="Other Schedules" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="3280" y="240" width="120" height="43.5" as="geometry" />
+        </mxCell>
+        <mxCell id="vdHyaJ4h-RcjHrm4b7ZG-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vdHyaJ4h-RcjHrm4b7ZG-11" target="vdHyaJ4h-RcjHrm4b7ZG-72">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3290" y="600" />
+              <mxPoint x="3290" y="600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="Spaces and Zoning" tooltip="User create space model in this tab by assigning the spaces plan In this diagram we see two connection of each schedule- one to the space type and another to the main space and zoning. The Space and zoning tab should have space types, zoning and other sub tabs/sections. space models based on the variation of each sub tabeach spaces should be automaticalluy populated in the &quot; Spaces and Zoning&quot; tab. This tab should have option to manualy put individual space properties or grouped under space types. That is the reason each of those items are showing two arrow lines- one to the Create Space Types and another to the Spaces and Zoning." id="vdHyaJ4h-RcjHrm4b7ZG-11">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillOpacity=100;dashed=1;dashPattern=8 8;arcSize=17;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+            <mxGeometry x="2940" y="445" width="300" height="210" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Create Space Types" tooltip="In energy modeling software, a space type is a template or category of a room/area that groups together typical characteristics used for energy simulation. Instead of manually entering loads and schedules for every single room, you assign a space type (like “Office”, “Classroom”, “Restroom”) and the model automatically applies standardized assumptions.&#xa;&#xa;Typically, a space type defines: Occupancy density (how many people per square foot/m²), Occupancy schedule (when people are in the space), Lighting power density (LPD) (watts/ft² or W/m²), lighting schedule, equipment load (plug load, equipment schedule, Ventilation requirements (outdoor air per person/area), Infiltration assumptions (sometimes included). There should be a library at backend that will have ventilation data" id="vdHyaJ4h-RcjHrm4b7ZG-12">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+            <mxGeometry x="2905" y="340" width="140" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="vdHyaJ4h-RcjHrm4b7ZG-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.8;entryY=-0.001;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="vdHyaJ4h-RcjHrm4b7ZG-7" target="vdHyaJ4h-RcjHrm4b7ZG-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vdHyaJ4h-RcjHrm4b7ZG-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.461;entryY=0.007;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="vdHyaJ4h-RcjHrm4b7ZG-12" target="vdHyaJ4h-RcjHrm4b7ZG-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vdHyaJ4h-RcjHrm4b7ZG-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vdHyaJ4h-RcjHrm4b7ZG-27" target="vdHyaJ4h-RcjHrm4b7ZG-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3330" y="550" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vdHyaJ4h-RcjHrm4b7ZG-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vdHyaJ4h-RcjHrm4b7ZG-27" target="vdHyaJ4h-RcjHrm4b7ZG-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vdHyaJ4h-RcjHrm4b7ZG-27" value="Internal loads (Electrical, equipment, people, miscellanous etc.)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="3250" y="324" width="170" height="91.75" as="geometry" />
+        </mxCell>
+        <mxCell id="vdHyaJ4h-RcjHrm4b7ZG-33" value="Ventilation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="2765" y="464" width="120" height="43.5" as="geometry" />
+        </mxCell>
+        <mxCell id="vdHyaJ4h-RcjHrm4b7ZG-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.091;entryY=0.99;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="vdHyaJ4h-RcjHrm4b7ZG-33" target="vdHyaJ4h-RcjHrm4b7ZG-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2830" y="440" />
+              <mxPoint x="2918" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vdHyaJ4h-RcjHrm4b7ZG-38" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.001;entryY=0.199;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="vdHyaJ4h-RcjHrm4b7ZG-33" target="vdHyaJ4h-RcjHrm4b7ZG-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vdHyaJ4h-RcjHrm4b7ZG-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="vdHyaJ4h-RcjHrm4b7ZG-39" target="vdHyaJ4h-RcjHrm4b7ZG-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vdHyaJ4h-RcjHrm4b7ZG-39" value="&lt;div&gt;Library from backend and option for user defined data&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="3490" y="220" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vdHyaJ4h-RcjHrm4b7ZG-43" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="2200" y="820" as="sourcePoint" />
+            <mxPoint x="2300" y="820" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vdHyaJ4h-RcjHrm4b7ZG-54" value="&lt;b&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;Building Plan&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1780" y="324" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vdHyaJ4h-RcjHrm4b7ZG-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.909;entryY=-0.004;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;dashPattern=8 8;" edge="1" parent="1" source="vdHyaJ4h-RcjHrm4b7ZG-10" target="vdHyaJ4h-RcjHrm4b7ZG-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3340" y="310" />
+              <mxPoint x="3210" y="310" />
+              <mxPoint x="3210" y="444" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vdHyaJ4h-RcjHrm4b7ZG-60" value="System 1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="3880" y="486" width="120" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="vdHyaJ4h-RcjHrm4b7ZG-65" value="System 2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="4030" y="486" width="120" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="vdHyaJ4h-RcjHrm4b7ZG-66" value="System N" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="4210" y="486" width="120" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="vdHyaJ4h-RcjHrm4b7ZG-68" value="" style="endArrow=none;dashed=1;html=1;rounded=0;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="4155" y="508.6" as="sourcePoint" />
+            <mxPoint x="4205" y="508.6" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vdHyaJ4h-RcjHrm4b7ZG-70" value="&lt;div&gt;&lt;font style=&quot;font-size: 26px;&quot;&gt;Systems&lt;/font&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="4020" y="416" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vdHyaJ4h-RcjHrm4b7ZG-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vdHyaJ4h-RcjHrm4b7ZG-72" target="vdHyaJ4h-RcjHrm4b7ZG-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Zones" tooltip="" id="vdHyaJ4h-RcjHrm4b7ZG-72">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+            <mxGeometry x="3450" y="560" width="210" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="vdHyaJ4h-RcjHrm4b7ZG-74" value="Create zones and assign spaces" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="3270" y="600" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vdHyaJ4h-RcjHrm4b7ZG-87" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vdHyaJ4h-RcjHrm4b7ZG-81" target="vdHyaJ4h-RcjHrm4b7ZG-85">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vdHyaJ4h-RcjHrm4b7ZG-81" value="Plants" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="4590" y="774" width="200" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="vdHyaJ4h-RcjHrm4b7ZG-84" value="Assign Systens in Plants" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="4700" y="611.25" width="160" height="28.75" as="geometry" />
+        </mxCell>
+        <mxCell id="vdHyaJ4h-RcjHrm4b7ZG-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vdHyaJ4h-RcjHrm4b7ZG-85">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="5759.999999999999" y="816.9999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vdHyaJ4h-RcjHrm4b7ZG-85" value="Alternatives" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="5390" y="774" width="200" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="vdHyaJ4h-RcjHrm4b7ZG-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vdHyaJ4h-RcjHrm4b7ZG-86" target="vdHyaJ4h-RcjHrm4b7ZG-85">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Utility Rates" tooltip="Assign utility rates for the alternative. Usually this is independent and same for all alternatives. Should have option for different rates for same utility type and assign them to the corresponding alternatives" id="vdHyaJ4h-RcjHrm4b7ZG-86">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+            <mxGeometry x="5190" y="540" width="200" height="86" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="vdHyaJ4h-RcjHrm4b7ZG-91" value="Assign Plants to the Alternatives" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="4920" y="821.25" width="180" height="28.75" as="geometry" />
+        </mxCell>
+        <mxCell id="vdHyaJ4h-RcjHrm4b7ZG-93" value="Assigning envelope properties to their corresponding alternatives" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="4910" y="486" width="180" height="34.38" as="geometry" />
+        </mxCell>
+        <mxCell id="vdHyaJ4h-RcjHrm4b7ZG-97" value="Run simulation" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="5620" y="821.25" width="90" height="18.75" as="geometry" />
+        </mxCell>
+        <mxCell id="vdHyaJ4h-RcjHrm4b7ZG-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vdHyaJ4h-RcjHrm4b7ZG-99" target="vdHyaJ4h-RcjHrm4b7ZG-100">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vdHyaJ4h-RcjHrm4b7ZG-99" value="Report generation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="5760" y="784.38" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vdHyaJ4h-RcjHrm4b7ZG-100" value="Finish" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="5980" y="543" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vdHyaJ4h-RcjHrm4b7ZG-103" value="&#xa;&lt;h1 style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; margin-top: 0px;&quot;&gt;Schedule&lt;/h1&gt;&lt;br class=&quot;Apple-interchange-newline&quot;&gt;&#xa;&#xa;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2730" y="180" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vdHyaJ4h-RcjHrm4b7ZG-108" value="" style="endArrow=none;dashed=1;html=1;rounded=0;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="4170" y="510" as="sourcePoint" />
+            <mxPoint x="4220" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
